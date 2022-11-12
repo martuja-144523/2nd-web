@@ -1,0 +1,37 @@
+ /* common css starts here  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ /* common css ends here  */
+/* nav css  */
+nav{
+    background: #212121;
+}
+nav .holder{
+    width: 1170px;
+    background: #212121;
+    margin: auto;
+}
+nav .holder hr{
+    color: #595959;
+}
+nav .holder .row{
+    justify-content: flex-end;
+}
+nav .holder .row .nav-icon{
+    padding: 18px 21px;
+}
+nav .holder .row .border{
+    border-left: 2px solid #595959;
+}
+/* nav css  */
